@@ -1,5 +1,23 @@
 *{
+    font-family: 'Sedgwick Ave Display', cursive;
     background-color: grey;
     margin:0px;
     padding:0px;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align:center;
+    margin-bottom:15px;
+}
+.blackhov{
+    background-color: black;
+    transition: all 0.5s;
+
+} 
+.basee{
+    margin:0 auto;
+    outline:5px solid black;
+    border-radius: 20px;
+
 }
