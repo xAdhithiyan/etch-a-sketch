@@ -5,9 +5,28 @@
         <title>Etch a Sketch</title>
         <link rel = "stylesheet" href = "styles.css">
         <script src = "script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
         <h1>Etch A Sketch</h1>
-    </body>
+        <div class="selection">
+            <div class = "slidercs">
+                <input type = "range" min ="3" max = "100" class ="slider"> 
+                <div style="background:grey;">(number of width grids)</div>
+                <div style="background:grey;" class = "slider2">40</div>
+            </div>    
+
+            <div class ="color">
+                <input type="color" style="border:3px solid black">
+                <button class ="c">Color</button>
+            </div>
+            <button>Rainbow</button>
+            <button>Eraser</button>
+            <button>Clear</button>
+        </div>
+
+        </body>
 </html>
