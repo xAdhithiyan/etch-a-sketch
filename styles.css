@@ -17,7 +17,8 @@ h1{
 } 
 .basee{
     margin:0 auto;
-    outline:5px solid black;
+    outline:10px solid black;
     border-radius: 20px;
+    border-top-left-radius: ;
 
 }
