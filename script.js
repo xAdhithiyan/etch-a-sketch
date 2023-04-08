@@ -21,13 +21,9 @@ function creatingGrids(num,h1,w1) {
                     this.style.transition = "all 0.4s";
                 }
             }, false);
-
             oneRowGrid.appendChild(grid);
         }
-        
         oneRowGrid.style.cssText = "display:flex;";
-    
-
     }
 }
 
@@ -142,4 +138,4 @@ function allFunctions(){
 let sliderValue = 40;
 //defualt grid color(global variable)
 let color = "black";
-allFunctions()
+allFunctions();
